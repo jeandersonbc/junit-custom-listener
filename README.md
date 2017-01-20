@@ -14,7 +14,7 @@ Not much fancy but may help you if you are running tests in parallel :)
     <dependency>
         <groupId>com.github.jeandersonbc</groupId>
         <artifactId>junit-custom-listener</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0-SNAPSHOT</version>
         <scope>test</scope>
     </dependency>
     ```
@@ -31,7 +31,7 @@ Not much fancy but may help you if you are running tests in parallel :)
                 <properties>
                   <property>
                     <name>listener</name>
-                    <value>com.github.jeandersonbc.JunitCustomRunListener</value>
+                    <value>com.github.jeandersonbc.JUnitCustomRunListener</value>
                   </property>
                 </properties>
                 ...
